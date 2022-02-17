@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    margin: auto;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font: bold;
+    font-size: large;
+    border-radius: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 16px;
+    width: 10vw;
+}
+
+.controls {
+    align-self: center;
+}
+
+input {
+    width: 22vw;
+    align-self: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.clearAlarm {
+    background-color: rgb(241, 6, 6);
+    color: white;
+}
+
+.setAlarm {
+    background-color: green;
+    color: white;
+    margin-left: 17px;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+    background-color: black;
+    font-size: 15vw;
+}
